@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <style>   
+        *{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+            font-weight:bolder;
+            color: #073666cc;
+            
+
+        }
+        body{
+            background-image: url('./assets/cake1.jpg' );
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+          
+        }
+        header {
+            background-image: url('./assets/Pasteleria.gif' );
+            background-size: 100% 100%;
+            padding: 360px;
+            text-align: center;
+            font-size: 50px;
+            color: rgb(77, 8, 8);
+            
+        }
+        footer {
+            background-color: #e0ac9d;
+            padding: 10px;
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow: hidden;
+            background-color: #333;
+            position: absolute;
+            left: 35%;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover {
+            background-color: #111;
+          }
+        </style>
+
+</head>
+<body>
+    <header>
+    🎂 Pasteloso! 🎂
+    </header>
+    <ul>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="#news">Promociones</a></li>
+        <li><a href="./pedido.html">Pedido</a></li>
+        <li><a href="./galeria.html">Galeria</a></li>
+        <li></li>
+      </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table align="center" border="8">
+        <tr>
+            <th>Sabores de pasteles</th>
+            <th>Adornos</th>
+        </tr>
+        <tr>
+            <td>- Chocolate ...... $ 150.00</td>
+            <td>- Chantilly ...... $ 200.00</td>
+        </tr>
+        <tr>
+            <td>- Cajeta ...... $ 150.00</td>
+            <td>- Caramelo ...... $ 200.00</td>
+        </tr>
+        <tr>
+            <td>- Fresa ...... $ 150.00</td>
+            <td>- Frutas ...... $ 200.00</td>
+        </tr>
+        <tr>
+            <td>- Vainilla ...... $ 150.00</td>
+            <td>- Fondat ...... $ 200.00</td>
+        </tr>
+        <tr>
+            <td>- Capuchino ...... $ 150.00</td>
+            <td>- Merengue ...... $ 200.00</td>
+        </tr>
+        <tr>
+            <td>- Ganache...... $ 150.00</td>
+        </tr>
+        
+    </table>
+    <hr>
+    <br>
+    <h1>Arma tu pastel! </h1>
+    <table align="center" border="5" >
+        <tr>
+            <td>
+                <p>Sabores</p>
+                <input type="checkbox" id="topping1" name="topping1" value="Chocolate">
+                <label for="topping1">Chocolate</label><br>
+                <input type="checkbox" id="topping2" name="topping2" value="Cajeta">
+                <label for="topping2">Cajeta</label><br>
+                <input type="checkbox" id="topping3" name="topping3" value="Fresa">
+                <label for="topping3">Fresa</label><br>
+                <input type="checkbox" id="topping3" name="topping3" value="Vainilla">
+                <label for="topping3">Vainilla</label><br>
+                <input type="checkbox" id="topping4" name="topping4" value="Capuchino">
+                <label for="tooping4">Capuchino</label><br>
+            </td>
+            <td>
+                <p>Adornos</p>
+                <input type="checkbox" id="topping5" name="topping5" value="Chantilly">
+                <label for="tooping5">Chantilly</label><br>
+                <input type="checkbox" id="topping6" name="topping6" value="Caramelo">
+                <label for="tooping6">Caramelo</label><br>
+                <input type="checkbox" id="topping7" name="topping7" value="Frutas">
+                <label for="tooping7">Frutas</label><br>
+                <input type="checkbox" id="topping8" name="topping8" value="Fondant">
+                <label for="tooping8">Fondant</label><br>
+                <input type="checkbox" id="topping9" name="topping9" value="Merengue">
+                <label for="tooping9">Merengue</label><br>
+            </td>
+            <td>
+                <p>Tamaño</p>
+                <input type="checkbox" id="topping10" name="topping10" value="Chico">
+                <label for="tooping10">Chico</label><br>
+                <input type="checkbox" id="topping11" name="topping11" value="Mediano">
+                <label for="tooping11">Mediano</label><br>
+                <input type="checkbox" id="topping12" name="topping12" value="Grende">
+                <label for="tooping12">Grnade</label><br>
+            </td>           
+    </table>
+    <p align= "right" >
+    <input type="button" id="boton1" name="boton1" value="Hacer pedido" border-radius:12px; onclick="alert('Enviar pedido!'),location.href='./pedido.html'">
+    </p>
+    <hr>
+    <footer>
+        
+        <p>Pasteloso!</p>
+        <p>Los mejores pasteles</p>
+        <p align="right">Nos ubicamos en.!</p>
+    </footer>
+
+</html>
