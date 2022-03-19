@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./pokedex.css">
+    
+</head>
+<body>
+    <img class="img-Logo" src="./assets/Pokemon.png" alt="logo" >
+    <div class="pokedex">
+        <div class="circulo" style="margin-top: -110px; margin-left:-110px"></div>
+        <br>
+    <div class="poke-card">
+
+    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" style="border-radius: 5px; text-align:center" >
+    
+    <br>
+    <br>
+        <div class="img-container">
+            <img src="./assets/pokebola.gif" alt="Pokemon" id="pokeImg" width="150px" style="border: 4px solid #e44d27; border-radius:50%">
+        </div>
+    <p>Tipo:</p><p id="tipo_D"  style="font-weight: bolder;"></p>
+    <p>Movimiento:</p> <p id="movePoke" style="font-weight: bolder;"></p>
+    <p>Estadistica</p> <p id="datoPoke"  style="font-weight: bolder;"></p>
+    <p>Habilidad</p> <p id="habil"  style="font-weight: bolder;"></p>
+    <button class="button" onclick="fetchPokemon()">Busca Pokemon</button>
+    </div>
+    <br>
+    <div class="circulo2" style="margin-top: 5px; margin-left:-110px"></div>
+    <img src="./assets/180px-Cruceta_N64.gif" alt="cruceta" style="margin-left: 250px;">
+    </div>    
+</body>
+<footer>
+    <script src="4.-pokedex.js">
+       
+    </script>
+</footer>
+</html>
